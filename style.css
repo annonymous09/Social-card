@@ -1,0 +1,97 @@
+.container {
+  height: 350px;
+  width: 300px;
+  border: 2px solid black;
+  margin-left: 20px;
+  margin-top: 50px;
+  border-radius: 20px;
+
+}
+
+.bg-banner {
+  height: 155px;
+  width: 300px;
+  border-top-right-radius: 17px;
+  border-top-left-radius: 17px;
+  background-color: dodgerblue;
+}
+
+.profile-card {
+  height: 150px;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 50%;
+  position: relative;
+  left: 24%;
+  bottom: 100px;
+}
+
+.profile {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: url("/project 5/profile.png");
+  background-size: cover;
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 120px;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.role {
+  font-size: 15px;
+  font-weight: bold;
+  position: relative;
+  bottom: 40px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  position: relative;
+  bottom: 44px;
+}
+
+.add-frd {
+  height: 30px;
+  width: 130px;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: dodgerblue;
+  color: white;
+  margin-left: 5px;
+}
+.fa-user-plus{
+     margin-right: 10px;
+
+}
+.message {
+  height: 30px;
+  width: 120px;
+  border: 2px solid black;
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  margin-left: -25px;
+}
+ .fa-comment-dots{
+   margin-right: 10px;
+ }
+ 
+ #check{
+  display: none;
+ 
+ }
+ 
